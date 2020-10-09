@@ -1,0 +1,44 @@
+--------------------------------------------------------
+NS 3  introduction
+
+--------------------------------------------------------
+ The ns3 Simulator is a descrete event  network simulator  targeted primarily  for Research and Education purpose used
+
+ Ns3 is a open source and free
+
+ NS3 is not a backward compatible extension of ns2
+
+ it is the news simulator some model of of NS2 have already imported from ns2 to ns3
+
+NS3 is design as a set of libraries that can be combined together and also with other external software libraries 
+
+several external animator and data analysis and visualisation tools used with ns3. however users should expect to work at the command line with the C plus plus for Python software development tools
+
+ ns3 is primarily used for use on Linux although support accept for free PSD for for Windows 
+
+Nf3 is not officially supported software product of any company
+
+  Through NS3 we can generate trace file or packet capture  files which can understand by many other visualizer 
+
+
+
+
+Installation Procedure
+
+$] sudo apt update 
+$] sudo apt upgrade
+
+
+$] sudo apt install build-essential autoconf automake libxmu-dev python-pygraphviz cvs mercurial bzr git cmake p7zip-full python-matplotlib python-tk python-dev python-kiwi python-gnome2 python-gnome2-desktop qt4-dev-tools qt4-qmake qt4-qmake qt4-default gnuplot-x11 wireshark 
+
+
+$] echo $HOME 
+
+$]./build.py --enable-examples –enable-tests
+
+$] ./waf --run scratch/first
+
+
+To run a python file 
+
+$] ./waf --pyrun scratch/first.py 
